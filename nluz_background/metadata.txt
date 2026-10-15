@@ -1,0 +1,25 @@
+[general]
+name=NLMA國土功能分區圖連線
+description=Display Taiwan NLMA draft functional zone maps in QGIS with county and review-stage selection.
+version=1.0.0
+qgisMinimumVersion=3.24.0
+qgisMaximumVersion=4.2.99
+author=Xing Li
+email=li.xing.183.github@icloud.com
+icon=icon.svg
+experimental=False
+deprecated=False
+category=Web
+tags=taiwan,nlma,nluz,land use,functional zone,raster
+homepage=https://github.com/LiXing183/NLMA-functional-zone-map-connections#readme
+repository=https://github.com/LiXing183/NLMA-functional-zone-map-connections
+tracker=https://github.com/LiXing183/NLMA-functional-zone-map-connections/issues
+license=GPL-2.0-only
+server=False
+hasProcessingProvider=False
+about=Displays Taiwan NLMA draft functional zone maps for 22 counties and cities, with ministry-review and public-exhibition stages. Images update after main-canvas pan or zoom; website sessions older than 30 minutes renew only when a new image is needed. Includes connection warnings, manual reconnection and project restoration.
+    Taiwan only. Internet access is required. No additional Python packages are required beyond QGIS. The service uses the public NLUZ website session and proxy; successful access does not establish a stable public API or permission for continued third-party use. This is an independently developed tool, not an official NLMA product. Maps are drafts, not legally approved or promulgated results.
+    Tokens and cookies remain in memory. Georeferenced image snapshots are stored in the local QGIS profile; they are not embedded in the QGZ. Custom QGIS proxy/authentication settings are not integrated. Layouts, atlases and secondary map views do not trigger new imagery.
+    User reported successful operation on Windows with QGIS 4.2.3. Other declared versions and operating systems have not been separately validated.
+    本外掛使用 Codex 生成。This plugin was generated using Codex.
+changelog=1.0.0: First publication package based on user-tested 0.2.2. Adds release metadata, documentation, license statement and reproducible packaging. Runtime Python code is unchanged. User confirmed successful operation with QGIS 4.2.3.

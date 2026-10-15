@@ -1,0 +1,310 @@
+[
+  {
+    "county": "宜蘭縣",
+    "version": "公展版",
+    "layerId": 15,
+    "layerName": "宜蘭縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "花蓮縣",
+    "version": "公展版",
+    "layerId": 17,
+    "layerName": "花蓮縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "金門縣",
+    "version": "公展版",
+    "layerId": 5,
+    "layerName": "金門縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "南投縣",
+    "version": "公展版",
+    "layerId": 1,
+    "layerName": "南投縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "屏東縣",
+    "version": "公展版",
+    "layerId": 11,
+    "layerName": "屏東縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "苗栗縣",
+    "version": "公展版",
+    "layerId": 9,
+    "layerName": "苗栗縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "桃園市",
+    "version": "公展版",
+    "layerId": 20,
+    "layerName": "桃園市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "高雄市",
+    "version": "公展版",
+    "layerId": 10,
+    "layerName": "高雄市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "基隆市",
+    "version": "公展版",
+    "layerId": 13,
+    "layerName": "基隆市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "連江縣",
+    "version": "公展版",
+    "layerId": 12,
+    "layerName": "連江縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "雲林縣",
+    "version": "公展版",
+    "layerId": 0,
+    "layerName": "雲林縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "新北市",
+    "version": "公展版",
+    "layerId": 4,
+    "layerName": "新北市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "新竹市",
+    "version": "公展版",
+    "layerId": 6,
+    "layerName": "新竹市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "新竹縣",
+    "version": "公展版",
+    "layerId": 2,
+    "layerName": "新竹縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "嘉義市",
+    "version": "公展版",
+    "layerId": 14,
+    "layerName": "嘉義市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "嘉義縣",
+    "version": "公展版",
+    "layerId": 7,
+    "layerName": "嘉義縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "彰化縣",
+    "version": "公展版",
+    "layerId": 19,
+    "layerName": "彰化縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺中市",
+    "version": "公展版",
+    "layerId": 3,
+    "layerName": "臺中市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺北市",
+    "version": "公展版",
+    "layerId": 21,
+    "layerName": "臺北市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺東縣",
+    "version": "公展版",
+    "layerId": 18,
+    "layerName": "臺東縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺南市",
+    "version": "公展版",
+    "layerId": 8,
+    "layerName": "臺南市國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "澎湖縣",
+    "version": "公展版",
+    "layerId": 16,
+    "layerName": "澎湖縣國土功能分區圖",
+    "status": "image_verified"
+  },
+  {
+    "county": "宜蘭縣",
+    "version": "報部版",
+    "layerId": 15,
+    "layerName": "宜蘭縣國土功能分區圖15",
+    "status": "image_verified"
+  },
+  {
+    "county": "花蓮縣",
+    "version": "報部版",
+    "layerId": 17,
+    "layerName": "花蓮縣國土功能分區圖17",
+    "status": "image_verified"
+  },
+  {
+    "county": "金門縣",
+    "version": "報部版",
+    "layerId": 5,
+    "layerName": "金門縣國土功能分區圖05",
+    "status": "image_verified"
+  },
+  {
+    "county": "南投縣",
+    "version": "報部版",
+    "layerId": 1,
+    "layerName": "南投縣國土功能分區圖01",
+    "status": "image_verified"
+  },
+  {
+    "county": "屏東縣",
+    "version": "報部版",
+    "layerId": 11,
+    "layerName": "屏東縣國土功能分區圖11",
+    "status": "image_verified"
+  },
+  {
+    "county": "苗栗縣",
+    "version": "報部版",
+    "layerId": 9,
+    "layerName": "苗栗縣國土功能分區圖09",
+    "status": "image_verified"
+  },
+  {
+    "county": "桃園市",
+    "version": "報部版",
+    "layerId": 20,
+    "layerName": "桃園市國土功能分區圖20",
+    "status": "image_verified"
+  },
+  {
+    "county": "高雄市",
+    "version": "報部版",
+    "layerId": 10,
+    "layerName": "高雄市國土功能分區圖10",
+    "status": "image_verified"
+  },
+  {
+    "county": "基隆市",
+    "version": "報部版",
+    "layerId": 13,
+    "layerName": "基隆市國土功能分區圖13",
+    "status": "image_verified"
+  },
+  {
+    "county": "連江縣",
+    "version": "報部版",
+    "layerId": 12,
+    "layerName": "連江縣國土功能分區圖12",
+    "status": "image_verified"
+  },
+  {
+    "county": "雲林縣",
+    "version": "報部版",
+    "layerId": 0,
+    "layerName": "雲林縣國土功能分區圖00",
+    "status": "image_verified"
+  },
+  {
+    "county": "新北市",
+    "version": "報部版",
+    "layerId": 4,
+    "layerName": "新北市國土功能分區圖04",
+    "status": "image_verified"
+  },
+  {
+    "county": "新竹市",
+    "version": "報部版",
+    "layerId": 6,
+    "layerName": "新竹市國土功能分區圖06",
+    "status": "image_verified"
+  },
+  {
+    "county": "新竹縣",
+    "version": "報部版",
+    "layerId": 2,
+    "layerName": "新竹縣國土功能分區圖02",
+    "status": "image_verified"
+  },
+  {
+    "county": "嘉義市",
+    "version": "報部版",
+    "layerId": 14,
+    "layerName": "嘉義市國土功能分區圖14",
+    "status": "image_verified"
+  },
+  {
+    "county": "嘉義縣",
+    "version": "報部版",
+    "layerId": 7,
+    "layerName": "嘉義縣國土功能分區圖07",
+    "status": "image_verified"
+  },
+  {
+    "county": "彰化縣",
+    "version": "報部版",
+    "layerId": 19,
+    "layerName": "彰化縣國土功能分區圖19",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺中市",
+    "version": "報部版",
+    "layerId": 3,
+    "layerName": "臺中市國土功能分區圖03",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺北市",
+    "version": "報部版",
+    "layerId": 21,
+    "layerName": "臺北市國土功能分區圖21",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺東縣",
+    "version": "報部版",
+    "layerId": 18,
+    "layerName": "臺東縣國土功能分區圖18",
+    "status": "image_verified"
+  },
+  {
+    "county": "臺南市",
+    "version": "報部版",
+    "layerId": 8,
+    "layerName": "臺南市國土功能分區圖08",
+    "status": "image_verified"
+  },
+  {
+    "county": "澎湖縣",
+    "version": "報部版",
+    "layerId": 16,
+    "layerName": "澎湖縣國土功能分區圖16",
+    "status": "image_verified"
+  }
+]

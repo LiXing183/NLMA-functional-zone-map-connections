@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-10-15",
+  "qgis_runtime_evidence": {
+    "source": "maintainer/user confirmation",
+    "platform": "Windows",
+    "version": "4.2.3",
+    "new_automated_qgis_session": false
+  },
+  "offline_regressions": {
+    "passed_groups": 12,
+    "groups": [
+      "syntax, defaults, CRS, 30-minute boundary, auth and transport errors, announcements",
+      "rectangular aspect ratio and pixel-center georeferencing",
+      "stale responses ignored and HTTP-200 Token error rejected",
+      "writeMapLayer -> save -> pan: immutable snapshot survives live-frame pruning; deduplication",
+      "world-file write failure leaves older snapshots intact and pins fallback live frame",
+      "cache cleanup protects shared frames, legacy folders and snapshots; removes owned unused folders",
+      "five mutation failures restore source/CRS/style/opacity/provenance; failed rollback reports uncertainty",
+      "unchanged selection no-op; failed controller creation keeps old session; requested/displayed identity separation",
+      "renew only on demand at 30 minutes; paused/hidden/unchanged views silent; unrelated change keeps request",
+      "render disabled, scale-hidden and absent canvas layers do not request imagery",
+      "actual initGui subscribes to writeMapLayer, not early writeProject",
+      "idempotent restore and project-clear disposal"
+    ]
+  },
+  "identical_to_0_2_2_installation_zip": [
+    "__init__.py",
+    "core.py",
+    "engine.py",
+    "plugin.py",
+    "storage.py",
+    "icon.svg",
+    "counties.json",
+    "county_order.json",
+    "announcements.json"
+  ],
+  "bandit": {
+    "version": "1.9.4",
+    "scope": "nluz_background",
+    "findings": 0,
+    "errors": 0
+  },
+  "detect_secrets": {
+    "version": "1.5.0",
+    "scope": "nluz_background",
+    "candidates": 0,
+    "options": [
+      "--all-files",
+      "--no-verify"
+    ]
+  },
+  "flake8": {
+    "version": "7.4.1",
+    "scope": "nluz_background",
+    "total": 84,
+    "codes": {
+      "E127": 3,
+      "E128": 1,
+      "E501": 78,
+      "E741": 1,
+      "F401": 1
+    },
+    "findings_fixed": false
+  },
+  "public_repository_links_verified": false,
+  "qgis_repository_uploaded": false,
+  "qgis_server_security_scan_run": false
+}

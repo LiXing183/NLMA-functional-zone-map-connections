@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>NLMA國土功能分區圖連線</title>
+  <desc>黃綠色雲端外框，中央為深綠色分區地圖與圖層。</desc>
+  <path d="M9 42C3 39 2 33 5 28C6.5 25.5 8.5 24 11 23
+           C8 17 13 11 19 14C23 5 32 2 40 6
+           C47 9 51 15 51 23C58 24 62 29 61 35
+           C60.5 38 58.5 40.5 55 42"
+        fill="none" stroke="#8DC21F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke-linejoin="round" stroke-width="1.2">
+    <path d="M32 24L41 29.4L32 34.8L23 29.4Z" fill="#006934" stroke="#006934"/>
+    <path d="M44 31.2L52 36L43 41.4L35 36.6Z" fill="#8DC21F" stroke="#8DC21F"/>
+    <path d="M20 31.2L29 36.6L21 41.4L12 36Z" fill="#006934" stroke="#006934"/>
+    <path d="M32 38.4L40 43.2L32 48L24 43.2Z" fill="#006934" stroke="#006934"/>
+  </g>
+  <path d="M13 44L32 55.4L51 44" fill="none" stroke="#006934"
+        stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
