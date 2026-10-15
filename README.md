@@ -4,7 +4,9 @@
 
 A QGIS plugin for displaying Taiwan NLMA draft functional zone maps, selecting counties and review stages, and refreshing imagery as the main map canvas changes.
 
-**Version:** 1.0.0 · **QGIS metadata compatibility:** 3.24.0–4.2.99 · **User-tested:** Windows / QGIS 4.2.3 · **License:** GPL-2.0-only
+在 QGIS 載入臺灣國土功能分區草案圖，可選擇縣市與報部審議／公開展覽階段，並隨主畫布平移、縮放自動更新影像。
+
+**Version:** 1.0.1 · **QGIS metadata compatibility:** 3.24.0–4.2.99 · **User-tested baseline:** Windows / QGIS 4.2.3 · **License:** GPL-2.0-only
 
 Repository name: `NLMA-functional-zone-map-connections`. QGIS display name: **NLMA國土功能分區圖連線**.
 
@@ -22,7 +24,7 @@ County/stage selection, dynamic main-canvas imagery, demand-driven session renew
 
 ## 安裝 / Installation
 
-1. Download `NLMA-functional-zone-map-connections-1.0.0.zip` from this project's Releases when published.
+1. Download `NLMA-functional-zone-map-connections-1.0.1.zip` from this project's Releases when published.
 2. In QGIS, open **Plugins → Manage and Install Plugins → Install from ZIP**.
 3. Install the ZIP, restart QGIS and enable **NLMA國土功能分區圖連線**.
 
@@ -58,7 +60,7 @@ Source: [內政部國土管理署國土功能分區圖公開展覽資訊](https:
 - The layer contains the last successful main-canvas image. Print layouts, atlases and secondary map views do not independently request imagery.
 - PNG/PGW snapshots live in the QGIS profile under `nluz_background/snapshots`; they are not embedded in the QGZ. Moving a project to another computer also requires its snapshot files. Existing snapshots are not automatically removed.
 - County order and announcement text are bundled snapshots, not live announcement feeds.
-- The maintainer reported successful functionality on Windows with QGIS 4.2.3. Linux, macOS and other declared QGIS versions have not been separately verified; the metadata range is not a claim that every version was tested.
+- The maintainer reported successful functionality of the code used in 1.0.0 on Windows with QGIS 4.2.3. Version 1.0.1 fixes a local variable name and adds bilingual descriptions; this revision has not been separately tested in a live QGIS session. Linux, macOS and other declared QGIS versions have not been separately verified; the metadata range is not a claim that every version was tested.
 
 ## 開發與封裝 / Development
 

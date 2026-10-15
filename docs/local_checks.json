@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
-  "checked_on": "2026-10-15",
-  "qgis_runtime_evidence": {
-    "source": "maintainer/user confirmation",
+  "version": "1.0.1",
+  "checked_on": "2026-10-16",
+  "runtime_evidence": {
+    "source": "maintainer/user confirmation of pre-1.0.1 code",
     "platform": "Windows",
-    "version": "4.2.3",
-    "new_automated_qgis_session": false
+    "qgis_version": "4.2.3",
+    "new_live_qgis_test_for_this_revision": false
   },
   "offline_regressions": {
     "passed_groups": 12,
@@ -24,10 +24,15 @@
       "idempotent restore and project-clear disposal"
     ]
   },
-  "identical_to_0_2_2_installation_zip": [
+  "runtime_change": {
+    "file": "engine.py",
+    "method": "metadata_loaded",
+    "change": "rename comprehension-local l to service_layer",
+    "ast_comparison_after_normalizing_rename": "identical"
+  },
+  "identical_to_1_0_0_installation_zip": [
     "__init__.py",
     "core.py",
-    "engine.py",
     "plugin.py",
     "storage.py",
     "icon.svg",
@@ -35,6 +40,10 @@
     "county_order.json",
     "announcements.json"
   ],
+  "bilingual_metadata": {
+    "english_before_chinese": true,
+    "chinese_prefix_removed": true
+  },
   "bandit": {
     "version": "1.9.4",
     "scope": "nluz_background",
@@ -53,17 +62,29 @@
   "flake8": {
     "version": "7.4.1",
     "scope": "nluz_background",
-    "total": 84,
+    "options": [
+      "--isolated",
+      "--jobs=1"
+    ],
+    "E741": 0,
+    "other_findings": 82,
     "codes": {
       "E127": 3,
       "E128": 1,
-      "E501": 78,
-      "E741": 1,
+      "E501": 77,
       "F401": 1
-    },
-    "findings_fixed": false
+    }
   },
-  "public_repository_links_verified": false,
-  "qgis_repository_uploaded": false,
-  "qgis_server_security_scan_run": false
+  "prior_uploaded_qgis_scan": {
+    "evidence": "user supplied screenshots",
+    "plugin_id": 6636,
+    "version": "1.0.0",
+    "passed": 4,
+    "info_items": 1,
+    "warnings": 0,
+    "critical": 0
+  },
+  "this_revision_qgis_uploaded": false,
+  "this_revision_server_scan_run": false,
+  "this_revision_github_published_by_this_task": false
 }

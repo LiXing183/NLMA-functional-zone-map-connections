@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1
+
+- Fix Flake8 E741 in `engine.py`: rename the ambiguous local variable `l` to `service_layer`, with no change to the service-layer validation logic.
+- Add Chinese text to the plugin summary and About, with English first and Chinese second.
+- Update the package version and documentation for resubmission.
+
+- 修正 `engine.py` 的 Flake8 E741：將易混淆的區域變數 `l` 改為 `service_layer`，服務圖層驗證邏輯不變。
+- 外掛簡介與 About 補上中文說明，英文在前、中文在後。
+- 更新套件版本及文件，供重新提交。
+
 ## 1.0.0
 
 First publication package, based on the user-tested 0.2.2 build.

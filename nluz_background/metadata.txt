@@ -1,7 +1,7 @@
 [general]
 name=NLMA國土功能分區圖連線
-description=Display Taiwan NLMA draft functional zone maps in QGIS with county and review-stage selection.
-version=1.0.0
+description=Display Taiwan NLMA draft functional zone maps in QGIS with county and review-stage selection. 在 QGIS 載入臺灣國土功能分區草案圖，支援縣市及報部審議、公開展覽階段選擇。
+version=1.0.1
 qgisMinimumVersion=3.24.0
 qgisMaximumVersion=4.2.99
 author=Xing Li
@@ -20,6 +20,13 @@ hasProcessingProvider=False
 about=Displays Taiwan NLMA draft functional zone maps for 22 counties and cities, with ministry-review and public-exhibition stages. Images update after main-canvas pan or zoom; website sessions older than 30 minutes renew only when a new image is needed. Includes connection warnings, manual reconnection and project restoration.
     Taiwan only. Internet access is required. No additional Python packages are required beyond QGIS. The service uses the public NLUZ website session and proxy; successful access does not establish a stable public API or permission for continued third-party use. This is an independently developed tool, not an official NLMA product. Maps are drafts, not legally approved or promulgated results.
     Tokens and cookies remain in memory. Georeferenced image snapshots are stored in the local QGIS profile; they are not embedded in the QGZ. Custom QGIS proxy/authentication settings are not integrated. Layouts, atlases and secondary map views do not trigger new imagery.
-    User reported successful operation on Windows with QGIS 4.2.3. Other declared versions and operating systems have not been separately validated.
-    本外掛使用 Codex 生成。This plugin was generated using Codex.
-changelog=1.0.0: First publication package based on user-tested 0.2.2. Adds release metadata, documentation, license statement and reproducible packaging. Runtime Python code is unchanged. User confirmed successful operation with QGIS 4.2.3.
+    The maintainer reported successful operation of the code used in 1.0.0 on Windows with QGIS 4.2.3. Version 1.0.1 renames one local variable and adds bilingual descriptions. This revision has not been separately tested in a live QGIS session. Other declared versions and operating systems have not been separately validated.
+    This plugin was generated using Codex.
+    支援臺灣 22 縣市的國土功能分區草案圖，可選擇「報部審議階段」或「公開展覽階段」。主畫布平移、縮放後自動更新影像；Token 使用超過 30 分鐘後，等下次需要新影像時才更新，閒置時不定時請求。提供連線失效提示、手動重新連線及專案重開後恢復連線功能。
+    僅適用於臺灣，展圖需要網際網路連線，無須額外安裝 Python 套件。本外掛為獨立開發工具，非國土管理署官方產品；透過官方公開網站的工作階段及代理服務取圖，成功連線不代表取得穩定公開 API 或長期第三方使用授權，服務存取仍受提供單位規則限制。
+    各直轄市、縣(市)國土功能分區圖皆為公開展覽草案，非依法核定及公告結果。
+    Token 與 Cookie 僅暫存在記憶體；影像快照保存在本機 QGIS 使用者設定目錄，未嵌入 QGZ，跨電腦使用專案時需一併處理快照檔案。尚未整合 QGIS 自訂代理及認證設定；版面配置、地圖集及其他地圖視窗不會獨立要求新影像。
+    維護者已回報 1.0.0 沿用的程式於 Windows／QGIS 4.2.3 操作正常。1.0.1 修正一處區域變數名稱並加入中英文說明，本修訂版尚未另行實機測試；其他宣告支援版本及作業系統亦未逐一驗證。
+    本外掛使用 Codex 生成。
+changelog=1.0.1: Fix Flake8 E741 by renaming an ambiguous local variable; add Chinese descriptions after English in the plugin summary and About. 修正 Flake8 E741 模糊變數名稱；外掛簡介與 About 加入中文說明，英文在前、中文在後。
+    1.0.0: First publication package based on user-tested 0.2.2, with release metadata and documentation. 首次上架準備版，補齊發布資訊與文件。

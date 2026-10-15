@@ -208,7 +208,10 @@ class Engine(QObject):
 
     def metadata_loaded(self, data):
         info = json.loads(data)
-        if not any(l.get('id') == self.service_id for l in info.get('layers', [])):
+        if not any(
+            service_layer.get('id') == self.service_id
+            for service_layer in info.get('layers', [])
+        ):
             self.fail('服務未包含官方頁面指定的圖層')
             return
         sr = info.get('spatialReference', {})
