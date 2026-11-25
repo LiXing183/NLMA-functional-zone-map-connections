@@ -1,6 +1,6 @@
 # NLMA國土功能分區圖連線
 
-NLMA Functional Zone Map Connections — version 1.0.1, by Xing Li.
+NLMA Functional Zone Map Connections — version 1.0.2, by Xing Li.
 
 Display Taiwan NLMA draft functional zone maps in QGIS. Select the ministry-review or public-exhibition stage and a county/city. Pan or zoom the main map canvas to refresh. Internet access is required; no extra Python packages are needed beyond QGIS.
 
@@ -14,9 +14,9 @@ Use the green cloud/map toolbar button or the plugin menu. Default: Taipei City 
 
 Images are draft information, not legally approved or promulgated results. This independent plugin is not an official NLMA product. Its license does not establish permission to use third-party maps or a stable public API. Provider access restrictions still apply.
 
-The maintainer reported successful operation of the code used in 1.0.0 on Windows / QGIS 4.2.3. Version 1.0.1 renames one local variable and adds bilingual descriptions; this revision has not been separately tested in a live QGIS session. Other declared versions and operating systems are not separately tested. Snapshots are local files under the QGIS profile and are not embedded in the QGZ. Custom QGIS proxy/authentication settings and independent layout/atlas imagery requests are not integrated.
+The maintainer reported successful operation of the code used in 1.0.0 on Windows / QGIS 4.2.3. Version 1.0.2 only widens the declared compatibility to all QGIS 4.x releases (including 4.4); runtime code is unchanged from 1.0.1. The maintainer installed and tested 1.0.2 on Windows 11 / QGIS 4.4.0. Other declared versions and operating systems are not separately tested. Snapshots are local files under the QGIS profile and are not embedded in the QGZ. Custom QGIS proxy/authentication settings and independent layout/atlas imagery requests are not integrated.
 
-維護者已回報 1.0.0 沿用的程式於 Windows／QGIS 4.2.3 操作正常，1.0.1 尚未另行實機測試。影像快照保存在本機 QGIS 設定目錄，未嵌入 QGZ；跨電腦使用時需另行處理快照。自訂代理、認證及版面配置／地圖集獨立取圖尚未整合。
+維護者已回報 1.0.0 沿用的程式於 Windows／QGIS 4.2.3 操作正常；1.0.2 僅將宣告支援範圍擴大至所有 QGIS 4.x（含 4.4），功能程式未變更，維護者已於 Windows 11／QGIS 4.4.0 安裝並測試。影像快照保存在本機 QGIS 設定目錄，未嵌入 QGZ；跨電腦使用時需另行處理快照。自訂代理、認證及版面配置／地圖集獨立取圖尚未整合。
 
 See [使用說明.txt](使用說明.txt) for usage and limitations, [CHANGELOG.md](CHANGELOG.md) for changes and [LICENSE](LICENSE) for GPL-2.0-only terms.
 
@@ -24,4 +24,4 @@ See [使用說明.txt](使用說明.txt) for usage and limitations, [CHANGELOG.m
 
 Contact: li.xing.183.github@icloud.com
 
-本外掛使用 Codex 生成。This plugin was generated using Codex.
+本外掛透過 Claude Code 製作。This plugin was made with Claude Code.

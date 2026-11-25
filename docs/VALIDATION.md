@@ -10,6 +10,10 @@ Version 1.0.1 changes only a comprehension-local variable name in the runtime co
 
 1.0.1 的功能程式僅修改一處推導式區域變數名稱，其餘四個 Python 模組及圖資設定均與 1.0.0 相同。已比對語法樹確認變更範圍；本修訂版尚未另行實機測試。
 
+Version 1.0.2 changes only metadata and documentation: `qgisMaximumVersion` goes from 4.2.99 to 4.99, following the plugins.qgis.org "Migrate to QGIS 4" guidance, so QGIS 4.4 no longer rejects the plugin. All Python modules and bundled data are byte-identical to 1.0.1. The code already uses `qgis.PyQt` imports and fully scoped Qt enums. No `supportsQt6` key is used, since QGIS core removed it. The maintainer then installed and tested 1.0.2 on Windows 11 (26H2) with QGIS 4.4.0-Auckland (revision 07cadf6f102, Qt 6.11.3, Python 3.12.16, GDAL 3.13.3, PROJ 9.8.1). The plugin was listed as active version 1.0.2 in the QGIS About dialog. This is a maintainer report, not an automated runtime test.
+
+1.0.2 僅修改 metadata 及文件：`qgisMaximumVersion` 由 4.2.99 改為 4.99，所有 Python 模組與資料均與 1.0.1 相同。維護者已於 Windows 11（26H2）／QGIS 4.4.0-Auckland（Qt 6.11.3、Python 3.12.16）安裝並測試 1.0.2。
+
 ## 可重現的離線檢查
 
 `python tests/test_regressions.py` executes 12 regression groups with fake QGIS objects and actual temporary image/world files and XML serialization:
@@ -53,6 +57,6 @@ Development checks on 2026-10-15 verified image responses for the 22-county/two-
 
 The 30-minute renewal threshold is not proof of the server's natural token expiry. The earlier invalid-token exercise is not a natural-expiry test.
 
-Linux, macOS, other QGIS versions, custom enterprise proxy/authentication settings, moving snapshots between computers and separate print-layout/atlas refreshes have not been separately validated.
+Linux, macOS, QGIS versions other than 4.2.3 and 4.4.0, custom enterprise proxy/authentication settings, moving snapshots between computers and separate print-layout/atlas refreshes have not been separately validated.
 
 QGIS's server-side security scan and final approval can only be confirmed after an actual upload. Local checks do not imply repository approval.

@@ -1,7 +1,20 @@
 {
-  "version": "1.0.1",
-  "checked_on": "2026-10-16",
-  "runtime_evidence": {
+  "version": "1.0.2",
+  "checked_on": "2026-11-25",
+  "release_1_0_2": {
+    "change": "metadata qgisMaximumVersion 4.2.99 -> 4.99; documentation and authorship note only",
+    "python_and_data_identical_to_1_0_1_zip": true,
+    "runtime_evidence": {
+      "source": "maintainer installation and test of 1.0.2",
+      "platform": "Windows 11 26H2",
+      "qgis_version": "4.4.0-Auckland (07cadf6f102)",
+      "qt_version": "6.11.3",
+      "python_version": "3.12.16"
+    },
+    "offline_regressions_rerun": false,
+    "note": "Python was unavailable on the packaging machine; ZIP built with PowerShell using the build_release.py file list and layout, archive/source byte equality verified."
+  },
+  "runtime_evidence_1_0_1": {
     "source": "maintainer/user confirmation of pre-1.0.1 code",
     "platform": "Windows",
     "qgis_version": "4.2.3",
